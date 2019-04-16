@@ -8,7 +8,7 @@ A simple etl pipeline using Apache Cassandra
 
 Running this project will require
 
-1. python 3.1 or higher
+1. python 3
 1. jupyter lab
 1. docker
 
