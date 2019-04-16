@@ -1,1 +1,4 @@
 cassandra-driver==3.17.0
+pandas==0.20.3
+numpy==1.13.3
+numpydoc==0.7.0

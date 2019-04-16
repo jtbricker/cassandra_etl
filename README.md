@@ -18,7 +18,7 @@ Get the cassandra docker image
 `docker pull cassandra:3.11.4`
 
 Create the docker container, running dettached, providing an available memory limit, and exposing the appropriate port
-`docker run --memory 4g --name cass-serv -p 9092:9092 -d cassandra:3.11.4`
+`docker run --memory 4g --name cass-serv -p 9042:9042 -d cassandra:3.11.4`
 
 This creates and runs the container the first time, each additional time you need to start the container, you can use the `docker start` command:
 `docker start cass-serv`

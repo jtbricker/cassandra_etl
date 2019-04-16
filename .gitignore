@@ -1,3 +1,6 @@
+# This file gets creates as part of the ETL process
+event_datafile_new.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
