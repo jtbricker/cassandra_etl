@@ -24,3 +24,9 @@ This creates and runs the container the first time, each additional time you nee
 `docker start cass-serv`
 
 and stop the container using `docker stop cass-serv`.
+
+### Download Dependencies and Start Jupyter Notebook
+
+Run `pip install -r requirements.txt` to download libraries required in the jupyter notebook.
+
+To star the notebook. Run `jupyer lab`, a browser should start in your current directory and you should be able to interact with the cassandra server running in the docker container.
